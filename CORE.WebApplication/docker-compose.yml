@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  core.webapplication:
+    image: core.webapplication
+    build:
+      context: ./CORE.WebApplication
+      dockerfile: Dockerfile
